@@ -31,3 +31,9 @@ Clone this repo to your desktop and run npm install to install all the dependenc
 After you clone this repo to your desktop, go to its root directory and run npm install to install its dependencies.
 
 Once the dependencies are installed, you can run npm run dev to start the application. You will then be able to access it at localhost:3000
+
+## Demo
+
+You can visit the app by the following links:
+
+- https://fervent-mestorf-640fef.netlify.app/

@@ -1,0 +1,77 @@
+.movie-card {
+  height: 45rem;
+  margin: auto;
+  position: absolute;
+  width: 35rem;
+  top: 5rem;
+  right: 1rem;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.movie-card .p-card-body {
+  background: #88a2aa;
+  overflow: scroll;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.movie-card .p-card-title {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.movie-card .p-card-title h3 {
+  margin: auto;
+}
+
+.movie-card .p-card-title p {
+  font-size: 15px;
+  margin: auto;
+}
+
+.movie-card .p-card-content .movie-card--list-container {
+  display: flex;
+}
+
+.movie-card h5 {
+  display: inline;
+  position: relative;
+}
+
+.movie-card ul {
+  list-style: none;
+  padding: 0;
+  overflow-wrap: break-word;
+  border: 1px solid transparent;
+}
+
+.movie-card .cast-element {
+  display: inline;
+  line-height: 2rem;
+  background-color: #e6e6e9;
+  margin: 0.3rem;
+  background-color: #e6e6e9;
+  line-height: 2rem;
+  margin: 0.3rem;
+  line-height: 2.5rem;
+  border-radius: 10px;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 5px;
+  padding: 2px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.plot-info {
+  padding-top: 1rem;
+  font-size: 15px;
+}
+
+.card-button-close {
+  background: transparent !important;
+  position: absolute !important;
+  border: none !important;
+  right: 5px;
+  top: 6px;
+}

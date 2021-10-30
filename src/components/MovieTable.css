@@ -1,63 +1,63 @@
-.datatable-doc-demo .p-paginator .p-paginator-current {
+.datatable-movies-demo .p-paginator .p-paginator-current {
   margin-left: auto;
 }
 
-.datatable-doc-demo .p-progressbar {
+.datatable-movies-demo .p-progressbar {
   height: 0.5rem;
   background-color: #d8dadc;
 }
 
-.datatable-doc-demo .p-progressbar .p-progressbar-value {
+.datatable-movies-demo .p-progressbar .p-progressbar-value {
   background-color: #607d8b;
 }
 
-.datatable-doc-demo .table-header {
+.datatable-movies-demo .table-header {
   display: flex;
   justify-content: center;
 }
 
-.datatable-doc-demo .p-datepicker {
+.datatable-movies-demo .p-datepicker {
   min-width: 25rem;
 }
 
-.datatable-doc-demo .p-datepicker td {
+.datatable-movies-demo .p-datepicker td {
   font-weight: 400;
 }
 
-.datatable-doc-demo .p-datatable.p-datatable-customers .p-datatable-header {
+.datatable-movies-demo .p-datatable.p-datatable-movies .p-datatable-header {
   padding: 1rem;
   text-align: left;
   font-size: 1.5rem;
 }
 
-.datatable-doc-demo .p-datatable.p-datatable-customers .p-paginator {
+.datatable-movies-demo .p-datatable.p-datatable-movies .p-paginator {
   padding: 1rem;
 }
 
-.datatable-doc-demo
-  .p-datatable.p-datatable-customers
+.datatable-movies-demo
+  .p-datatable.p-datatable-movies
   .p-datatable-thead
   > tr
   > th {
   text-align: left;
 }
 
-.datatable-doc-demo
-  .p-datatable.p-datatable-customers
+.datatable-movies-demo
+  .p-datatable.p-datatable-movies
   .p-datatable-tbody
   > tr
   > td {
   cursor: auto;
 }
 
-.datatable-doc-demo
-  .p-datatable.p-datatable-customers
+.datatable-movies-demo
+  .p-datatable.p-datatable-movies
   .p-dropdown-label:not(.p-placeholder) {
   text-transform: uppercase;
 }
 
-.datatable-doc-demo
-  .p-datatable-customers
+.datatable-movies-demo
+  .p-datatable-movies
   .p-datatable-tbody
   > tr
   > td
@@ -66,28 +66,28 @@
 }
 
 @media screen and (max-width: 960px) {
-  .datatable-doc-demo
-    .p-datatable.p-datatable-customers
+  .datatable-movies-demo
+    .p-datatable.p-datatable-movies
     .p-datatable-thead
     > tr
     > th,
-  .datatable-doc-demo
-    .p-datatable.p-datatable-customers
+  .datatable-movies-demo
+    .p-datatable.p-datatable-movies
     .p-datatable-tfoot
     > tr
     > td {
     display: none !important;
   }
 
-  .datatable-doc-demo
-    .p-datatable.p-datatable-customers
+  .datatable-movies-demo
+    .p-datatable.p-datatable-movies
     .p-datatable-tbody
     > tr {
     border-bottom: 1px solid var(--layer-2);
   }
 
-  .datatable-doc-demo
-    .p-datatable.p-datatable-customers
+  .datatable-movies-demo
+    .p-datatable.p-datatable-movies
     .p-datatable-tbody
     > tr
     > td {
@@ -100,8 +100,8 @@
     border: 0 none;
   }
 
-  .datatable-doc-demo
-    .p-datatable.p-datatable-customers
+  .datatable-movies-demo
+    .p-datatable.p-datatable-movies
     .p-datatable-tbody
     > tr
     > td
@@ -113,8 +113,8 @@
     font-weight: bold;
   }
 
-  .datatable-doc-demo
-    .p-datatable.p-datatable-customers
+  .datatable-movies-demo
+    .p-datatable.p-datatable-movies
     .p-datatable-tbody
     > tr
     > td
@@ -125,4 +125,8 @@
 
 .table-first-column-check .p-checkbox-box {
   border-radius: 30px !important;
+}
+
+.datatable-movies-demo th .p-checkbox {
+  display: none;
 }

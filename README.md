@@ -13,8 +13,7 @@
 
 ## General info
 
-This is a Front-End application created with ReactJs that searches for existing businesses by the given location
-via Yelp API.
+This is a Front-End application created with ReactJs that fetches a list of movies provided by given API.
 
 ## Technologies
 
